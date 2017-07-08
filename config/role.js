@@ -1,7 +1,14 @@
 'use strict';
 
+function delay(span) {
+  return new Promise(resolve => {
+    setTimeout(resolve, span);
+  })
+}
+
 module.exports = app => {
-  app.role.use('admin', function () {
+  app.role.use('admin', async function () {
+    await delay(2000); // fake query isAdmin
     return this.user && !!this.user.isAdmin;
   });
 
