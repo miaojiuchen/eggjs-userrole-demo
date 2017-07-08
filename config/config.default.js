@@ -50,7 +50,7 @@ module.exports = appInfo => {
   // };
 
   // config.session = {
-  //   key: 'dsf_session',
+  //   key: 'my_session_key',
   // };
 
   // config.sessionRedis = {
