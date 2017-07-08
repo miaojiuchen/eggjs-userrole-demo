@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Error Page -- 403</title>
+</head>
+
+<body>
+  403 Forbidden
+  <a href="/">Back to Home</a>
+</body>
+
+</html>

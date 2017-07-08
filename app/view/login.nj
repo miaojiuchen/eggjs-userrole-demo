@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+</head>
+
+<body>
+
+<form action="/account/login" method="post">
+  <label for="userId">userId</label>
+  <input type="text" name="userId" id="userId" />
+
+  <label for="userName">userName</label>
+  <input type="text" name="userName" id="userName" />
+
+  <label for="isAdmin">isAdmin</label>
+  <input type="checkbox" name="isAdmin" id="isAdmin" />
+  
+  <input type="submit" />
+</form>
+ 
+</body>
+
+</html>

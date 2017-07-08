@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+</head>
+
+<body>
+  <p> userId: {{ user.userId }}</p>
+  <p> userName: {{ user.userName }}</p>
+  <p> isAdmin: {{ user.isAdmin }}</p>
+
+  <a href="/admin.html">admin</a>
+  <a href="/login.html">login</a>
+</body>
+
+</html>
